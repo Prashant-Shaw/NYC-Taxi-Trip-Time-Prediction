@@ -33,4 +33,6 @@ XG Boost and Gradient Boosting shows almost same results. But the processing tim
 
 SHAP is used to explain the results of XG Boost regressor. Form the charts plotted through SHAP we infer, distance is the most impacting feature in predicting Trip Duration, which is quite obvious as trip_duration is directly dependent on distance. Pickup_hr is also contributing a fair role in predicting Trip Duration as the traffic condition at different time will decide how much time will it take to complete the trip.
 
+Thank you
+
 
