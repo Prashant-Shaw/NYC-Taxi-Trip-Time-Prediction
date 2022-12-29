@@ -12,13 +12,21 @@ Conclusion -
 Following are the metrics for the machine learning model used in this project - 
 
 Linear Regression- 	MSE = 171972.702, RMSE = 414.696, R2 = 0.610, Adjusted R2 = 0.610
+
 Lasso-	MSE = 171973.144, RMSE = 414.696, R2 = 0.610, Adjusted R2 = 0.610
+
 Ridge-	MSE = 171973.143, RMSE = 414.696, R2 = 0.610, Adjusted R2 = 0.610
+
 Elasticnet-	MSE = 171973.159, RMSE = 414.696, R2 = 0.610, Adjusted R2 = 0.610
+
 Polynomial- Features	MSE = 160417.946, RMSE = 400.522, R2 = 0.636, Adjusted R2 = 0.636
+
 Decision Tree-	MSE = 131198.160, RMSE = 362.213, R2 = 0.702, Adjusted R2 = 0.702
+
 Random Forest-	MSE = 131254.235, RMSE = 362.290, R2 = 0.702, Adjusted R2 = 0.702
+
 XG Boost-	MSE = 128167.600, RMSE = 358.005, R2 = 0.709, Adjusted R2 = 0.709
+
 Gradient Boosting-	MSE = 128619.268, RMSE = 358.635, R2 = 0.708, Adjusted R2 = 0.708
 
 XG Boost and Gradient Boosting shows almost same results. But the processing time of XG Boost is much lesser as compared to Gradient Boosting. So, we are considering XG Boost as the winner among all the mentioned ML models for this dataset
