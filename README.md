@@ -30,11 +30,11 @@ Decision Tree-	MSE = 131198.160, RMSE = 362.213, R2 = 0.702, Adjusted R2 = 0.702
 
 Random Forest-	MSE = 131254.235, RMSE = 362.290, R2 = 0.702, Adjusted R2 = 0.702
 
-XG Boost-	MSE = 128167.600, RMSE = 358.005, R2 = 0.709, Adjusted R2 = 0.709
+XG Boost-	MSE = 128167.600, RMSE = 358.005, R2 = 0.717, Adjusted R2 = 0.717
 
 Gradient Boosting-	MSE = 128619.268, RMSE = 358.635, R2 = 0.708, Adjusted R2 = 0.708
 
-XG Boost and Gradient Boosting shows almost same results. But the processing time of XG Boost is much lesser as compared to Gradient Boosting. So, we are considering XG Boost as the winner among all the mentioned ML models for this dataset
+XG Boost shows lillte bit improvement than Gradient Boosting also the processing time of XG Boost is much lesser as compared to Gradient Boosting. So, we are considering XG Boost as the winner among all the mentioned ML models for this dataset.
 
 SHAP is used to explain the results of XG Boost regressor. Form the charts plotted through SHAP we infer, distance is the most impacting feature in predicting Trip Duration, which is quite obvious as trip_duration is directly dependent on distance. Pickup_hr is also contributing a fair role in predicting Trip Duration as the traffic condition at different time will decide how much time will it take to complete the trip.
 
