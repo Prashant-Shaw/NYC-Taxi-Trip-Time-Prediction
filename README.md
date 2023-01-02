@@ -6,6 +6,8 @@ Project Status - Complete
 
 Language Used - Python with Pandas, Numpy, Matplotlib, Seaborn, geopy, SKlearn, XGBoost and SHAP libraries
 
+Dataset Link - https://drive.google.com/file/d/1NbtGu1bsgWTo5HznKD71GijSxMLEfPsW/view?usp=sharing
+
 Problem Statement - To predict the trip duration for the nyc taxi trips from 2016 NYC Yellow Cab trip dataset. The data was originally published by the NYC Taxi and Limousine Commission (TLC). The prediction has to be made using various machine learning models and the best performing models will be used for doing future predictions.
 
 Approach - To explore the data in the dataset and extract useful insights from the dataset based on the insights we will be training various machine learning models on some part of the data and the remaining part of data we will be using for testing the trained machine learning models. For the best performing machine learning models we will try to explain the prediction with the help of one of the model explainability technique - SHAP.
